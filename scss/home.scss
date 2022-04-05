@@ -1,0 +1,122 @@
+.content {
+	// background-color: orange;
+	padding: 50px;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+
+	.products {
+		width: 900px;
+		min-height: 50px;
+		// background-color: gray;
+		margin: 0 auto;
+		// padding-bottom: 50px;
+
+		.product {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 30px;
+			// background-color: white;
+
+			.prod-img {
+				height: 150px;
+				width: 150px;
+				border-radius: 50%;
+				background-color: peachpuff;
+				background-image: url(../images/terriermonProfile.png);
+				background-size: cover;
+				background-position: center;
+			}
+			.prod-img-two {
+				height: 150px;
+				width: 150px;
+				border-radius: 50%;
+				background-color: peachpuff;
+				background-image: url(../images/henry.jpg);
+				background-size: cover;
+				background-position: center;
+			}
+			.prod-img-dim {
+				height: 150px;
+				width: 150px;
+				border-radius: 50%;
+				background-color: peachpuff;
+				background-image: url(../images/dimCard.jpg);
+				background-size: cover;
+				background-position: center;
+			}
+			.prod-img-ark {
+				height: 150px;
+				width: 150px;
+				border-radius: 50%;
+				background-color: peachpuff;
+				background-image: url(../images/d-ark.jpg);
+				background-size: cover;
+				background-position: center;
+			}
+			.prod-img-bracelet {
+				height: 150px;
+				width: 150px;
+				border-radius: 50%;
+				background-color: peachpuff;
+				background-image: url(../images/vitalBracelet.jpg);
+				background-size: cover;
+				background-position: center;
+			}
+
+			.prod-descript {
+				width: 700px;
+				margin: 0 auto;
+				color: #6d7b3d;
+				h4 {
+					font-size: 40px;
+					text-decoration: underline;
+				}
+
+				p {
+					font-size: 20px;
+				}
+			}
+		}
+	}
+
+	.digiman {
+		height: 400px;
+		width: 400px;
+		background-image: url(../images/Terriermon_bottom.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		align-self: flex-end;
+	}
+
+	.digimanAbout {
+		height: 400px;
+		width: 400px;
+		background-image: url(../images/gargomonBottom.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		align-self: flex-end;
+	}
+	.digimanProd {
+		height: 400px;
+		width: 400px;
+		background-image: url(../images/rapidmonBottom.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		align-self: flex-end;
+	}
+
+	.digimanCon {
+		height: 400px;
+		width: 400px;
+		background-image: url(../images/saintGalgomonBottom.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		align-self: flex-end;
+	}
+}
